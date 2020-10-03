@@ -1,5 +1,4 @@
 class Sudoku:
-
     def __init__(self):
         # example sudoku field
         self.field = [0, 0, 8, 6, 0, 2, 0, 3, 0, 
@@ -48,6 +47,3 @@ class Sudoku:
                 elif curr > 0:
                     return False
         return True
-
-sudoku = Sudoku()
-print(sudoku.checkValid())
